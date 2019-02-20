@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="SourceFiles"
+                   displayName="Исходные файлы"
+                   projectFiles="true">
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Файлы заголовков"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Файлы ресурсов"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Файлы тестов"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Важные файлы"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>/usr/local/opencv_3.2/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>/usr/local/opencv_3.2/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_xfeatures2d.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_aruco.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_bgsegm.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_bioinspired.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_calib3d.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_ccalib.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_core.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_datasets.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_dnn.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_dpm.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_face.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_features2d.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_flann.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_fuzzy.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_hdf.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_highgui.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_imgcodecs.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_imgproc.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_line_descriptor.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_ml.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_objdetect.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_optflow.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_phase_unwrapping.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_photo.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_plot.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_reg.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_rgbd.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_saliency.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_shape.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_stereo.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_stitching.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_structured_light.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_superres.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_surface_matching.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_text.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_tracking.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_video.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_videoio.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_videostab.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_xfeatures2d.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_ximgproc.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_xobjdetect.so</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/opencv_3.2/lib/libopencv_xphoto.so</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
