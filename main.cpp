@@ -27,12 +27,10 @@ using namespace cv;
 using namespace std;
 
 void GetFoldersImg(string& folder, vector<String>& filename, int counter, vector<Mat>& images) {
-    //get all frames from folder
     glob(folder, filename);
     for (int i = 0; i < filename.size(); i++) {
         images.push_back(imread(filename[i]));
     }
-    //show all images from folder
     for (auto& item : images) {
         imshow(to_string(counter++), item);
     }
@@ -84,7 +82,6 @@ int main(int argc, char **arv) {
     
     int counter = 1;
     string folder = "./Robot2/*.jpg";
-    
     cout << "Strat getting folder's images" << endl;
     GetFoldersImg(folder, filename, counter, images);
     cout << "End getting folder's images" << endl;
